@@ -1,0 +1,1 @@
+id - name - brand - type - size - power - budget - price - memory - cClock - mClock - hdmi - dvi - DSP - mDSP - vga - monitors - cores - threads - buffer - socket - sata2 - sata3 - eSata - PCIe3 - USB2 - USB3 - DIMM - PCIe2 - connectors
