@@ -1,0 +1,26 @@
+doctype html
+html
+	head
+		title= title
+		link(rel="stylesheet", href="/stylesheets/reset.css")
+		link(rel="stylesheet", href="/stylesheets/style.css")
+		link(rel="stylesheet" href="/stylesheets/font-awesome-4.3.0/css/font-awesome.min.css")
+		
+		script(type="" src="/javascripts/jquery-1.11.1.min.js")
+		script(type="" src="/javascripts/formatting.js")
+			
+	body
+		header
+			div(id="whiteBar")
+			img(src="images/slashLogo.png" alt="SamS" height="80px")
+			nav
+				ul
+					li
+						a(href="index.html" id="active") Build
+					li
+						a(href="system.html") System
+					li
+						a(href="componentList.html") Components
+					li
+						a(href="howTo.html") Guide
+		block content

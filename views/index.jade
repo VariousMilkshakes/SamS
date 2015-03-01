@@ -1,0 +1,171 @@
+extends layout
+
+block content
+	section#sidebar
+		#top.scrollButton
+			i.fa.fa-chevron-down.fa-3x
+			// Trending Systems go here
+		#systemStack
+			artile#system1.tSystem
+				h4.tSystemName placehold system 1
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system2.tSystem
+				h4.tSystemName placehold system 2
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system3.tSystem
+				h4.tSystemName placehold system 3
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system4.tSystem
+				h4.tSystemName placehold system 4
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system5.tSystem
+				h4.tSystemName placehold system 5
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system6.tSystem
+				h4.tSystemName placehold system 6
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system7.tSystem
+				h4.tSystemName placehold system 7
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system8.tSystem
+				h4.tSystemName placehold system 8
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system9.tSystem
+				h4.tSystemName placehold system 9
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system10.tSystem
+				h4.tSystemName placehold system 10
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+		#bottom.scrollButton
+			i.fa.fa-chevron-up.fa-3x
+	#main
+		section#componentStats
+			#statsDesc
+				h2#compName Component Preview
+				ul#uniqueStats
+					li Cores:
+					li Clock Frequency:
+					li Cache:
+					li Overclockable: 
+				
+				h3#priceSpec.left Price: 
+				h3#wattageSpec.right Wattage: 
+			img(id='componentImage' src='')
+		section#componetBox
+			table
+				tr#comp1
+					td.compIcon
+						h3 Mobo
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#1 &#215
+				tr#comp2
+					td.compIcon
+						h3 CPU
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#2 &#215
+				tr#comp3
+					td.compIcon
+						h3 GPU
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#3 &#215
+				tr#comp4
+					td.compIcon
+						h3 RAM
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#4 &#215
+				tr#comp5
+					td.compIcon
+						h3 HDD
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#5 &#215
+				tr#comp6
+					td.compIcon
+						h3 PSU
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#6 &#215
+				tr#comp7
+					td.compIcon
+						h3 Case
+					td.compDesc
+					td.compModi
+						.triangle
+							.circle
+								span#7 &#215
+	section#infoPane
+		table
+			tr#light
+				td
+					input#systemName(type='text', name='systemName', placeholder='New Name')
+			tr
+				td#watt Wattage:
+			tr#light
+				td#price Price:
+			tr
+				td#prog Progress: 0/7
+			tr#light
+				td
+					form(action='/data', method='get')
+						input(type='submit' value='Submit >>>')
+	script(type="text/javascript").
+		function getSentComponents (){
+			try {
+				//If no data has been sent to client this will error
+				var test = !{JSON.stringify(data)};
+
+				if (test != null | test != undefined){
+					var importedData = !{JSON.stringify(data)};
+				}
+			} catch(err) {
+				console.log(err);
+			}
+
+			return importedData;
+		}

@@ -1,0 +1,770 @@
+[
+  {
+    "compID":2,
+    "name":"Intel i5K",
+    "type":"CPU",
+    "price":179.99,
+    "budget":3,
+    "wattage":84
+  },
+  {
+    "compID":3,
+    "name":"Intel i5",
+    "type":"CPU",
+    "price":140,
+    "budget":4,
+    "wattage":84
+  },
+  {
+    "compID":4,
+    "name":"Intel i3",
+    "type":"CPU",
+    "price":89.99,
+    "budget":5,
+    "wattage":54
+  },
+  {
+    "compID":6,
+    "name":"AMD 8350",
+    "type":"CPU",
+    "price":128.99,
+    "budget":4,
+    "wattage":125
+  },
+  {
+    "compID":9,
+    "name":"AMD 6300",
+    "type":"CPU",
+    "price":74.99,
+    "budget":6,
+    "wattage":80
+  },
+  {
+    "compID":10,
+    "name":"AMD 750K",
+    "type":"CPU",
+    "price":55.99,
+    "budget":6,
+    "wattage":62
+  },
+  {
+    "compID":11,
+    "name":"EVGA Titan Z",
+    "type":"GPU",
+    "price":2159.99,
+    "budget":1,
+    "wattage":375
+  },
+  {
+    "compID":12,
+    "name":"MSI Titan Black",
+    "type":"GPU",
+    "price":679.99,
+    "budget":2,
+    "wattage":250
+  },
+  {
+    "compID":13,
+    "name":"GTX 980",
+    "type":"GPU",
+    "price":479,
+    "budget":2,
+    "wattage":165
+  },
+  {
+    "compID":14,
+    "name":"GTX 780Ti",
+    "type":"GPU",
+    "price":380,
+    "budget":3,
+    "wattage":250
+  },
+  {
+    "compID":15,
+    "name":"GTX 780",
+    "type":"GPU",
+    "price":320.99,
+    "budget":3,
+    "wattage":250
+  },
+  {
+    "compID":16,
+    "name":"GTX 770",
+    "type":"GPU",
+    "price":275,
+    "budget":4,
+    "wattage":230
+  },
+  {
+    "compID":17,
+    "name":"GTX 760",
+    "type":"GPU",
+    "price":199.99,
+    "budget":4,
+    "wattage":170
+  },
+  {
+    "compID":18,
+    "name":"GTX 750Ti",
+    "type":"GPU",
+    "price":167.99,
+    "budget":5,
+    "wattage":60
+  },
+  {
+    "compID":19,
+    "name":"GT 630",
+    "type":"GPU",
+    "price":65.99,
+    "budget":6,
+    "wattage":25
+  },
+  {
+    "compID":20,
+    "name":"GTX 970",
+    "type":"GPU",
+    "price":319.99,
+    "budget":4,
+    "wattage":145
+  },
+  {
+    "compID":21,
+    "name":"R9 290X",
+    "type":"GPU",
+    "price":1000,
+    "budget":1,
+    "wattage":300
+  },
+  {
+    "compID":22,
+    "name":"R9 295",
+    "type":"GPU",
+    "price":699.95,
+    "budget":2,
+    "wattage":290
+  },
+  {
+    "compID":23,
+    "name":"R9 290",
+    "type":"GPU",
+    "price":299.99,
+    "budget":3,
+    "wattage":290
+  },
+  {
+    "compID":24,
+    "name":"HD 7970",
+    "type":"GPU",
+    "price":499.95,
+    "budget":2,
+    "wattage":300
+  },
+  {
+    "compID":25,
+    "name":"R9 280X",
+    "type":"GPU",
+    "price":215,
+    "budget":4,
+    "wattage":250
+  },
+  {
+    "compID":27,
+    "name":"R9 270X",
+    "type":"GPU",
+    "price":149.99,
+    "budget":5,
+    "wattage":180
+  },
+  {
+    "compID":28,
+    "name":"R9 270",
+    "type":"GPU",
+    "price":119.99,
+    "budget":5,
+    "wattage":150
+  },
+  {
+    "compID":26,
+    "name":"R9 280",
+    "type":"GPU",
+    "price":169.95,
+    "budget":5,
+    "wattage":220
+  },
+  {
+    "compID":29,
+    "name":"R9 265",
+    "type":"GPU",
+    "price":109.99,
+    "budget":5,
+    "wattage":150
+  },
+  {
+    "compID":30,
+    "name":"Asus Rampage IV",
+    "type":"MOBO",
+    "price":359.99,
+    "budget":1,
+    "wattage":70
+  },
+  {
+    "compID":31,
+    "name":"Gigabyte Z97X",
+    "type":"MOBO",
+    "price":349.99,
+    "budget":1,
+    "wattage":68
+  },
+  {
+    "compID":32,
+    "name":"Asus Rampage V",
+    "type":"MOBO",
+    "price":349.95,
+    "budget":1,
+    "wattage":75
+  },
+  {
+    "compID":33,
+    "name":"Gigabyte Force",
+    "type":"MOBO",
+    "price":299.9,
+    "budget":2,
+    "wattage":62
+  },
+  {
+    "compID":34,
+    "name":"MSI Z97",
+    "type":"MOBO",
+    "price":269,
+    "budget":2,
+    "wattage":60
+  },
+  {
+    "compID":35,
+    "name":"Asus Sabertooth",
+    "type":"MOBO",
+    "price":249.99,
+    "budget":2,
+    "wattage":65
+  },
+  {
+    "compID":36,
+    "name":"EVGA Z87",
+    "type":"MOBO",
+    "price":187,
+    "budget":3,
+    "wattage":58
+  },
+  {
+    "compID":37,
+    "name":"Asus Maximus",
+    "type":"MOBO",
+    "price":172.99,
+    "budget":3,
+    "wattage":55
+  },
+  {
+    "compID":38,
+    "name":"AsRock Z87M",
+    "type":"MOBO",
+    "price":154.99,
+    "budget":4,
+    "wattage":55
+  },
+  {
+    "compID":39,
+    "name":"Gigabyte Gaming",
+    "type":"MOBO",
+    "price":129.95,
+    "budget":4,
+    "wattage":52
+  },
+  {
+    "compID":40,
+    "name":"Asus TUF",
+    "type":"MOBO",
+    "price":119.99,
+    "budget":5,
+    "wattage":45
+  },
+  {
+    "compID":41,
+    "name":"Asus Z87A",
+    "type":"MOBO",
+    "price":106.99,
+    "budget":5,
+    "wattage":48
+  },
+  {
+    "compID":42,
+    "name":"MSI Z97S",
+    "type":"MOBO",
+    "price":95.99,
+    "budget":5,
+    "wattage":40
+  },
+  {
+    "compID":43,
+    "name":"AsRock Z87 Pro4",
+    "type":"MOBO",
+    "price":92,
+    "budget":5,
+    "wattage":37
+  },
+  {
+    "compID":44,
+    "name":"Gigabyte H97",
+    "type":"MOBO",
+    "price":82.95,
+    "budget":6,
+    "wattage":35
+  },
+  {
+    "compID":45,
+    "name":"Gigabyte D3H",
+    "type":"MOBO",
+    "price":79.95,
+    "budget":6,
+    "wattage":30
+  },
+  {
+    "compID":46,
+    "name":"AsRock H97 Pro4",
+    "type":"MOBO",
+    "price":64,
+    "budget":6,
+    "wattage":26
+  },
+  {
+    "compID":0,
+    "name":"Intel i7k",
+    "type":"CPU",
+    "price":259.99,
+    "budget":1,
+    "wattage":99
+  },
+  {
+    "compID":1,
+    "name":"Intel i7",
+    "type":"CPU",
+    "price":220,
+    "budget":2,
+    "wattage":84
+  },
+  {
+    "compID":67,
+    "name":"60gb SSD",
+    "type":"HDD",
+    "price":38.07,
+    "budget":5,
+    "wattage":1
+  },
+  {
+    "compID":68,
+    "name":"120gb SSD",
+    "type":"HDD",
+    "price":43,
+    "budget":5,
+    "wattage":1
+  },
+  {
+    "compID":69,
+    "name":"250gb SSD",
+    "type":"HDD",
+    "price":89.97,
+    "budget":2,
+    "wattage":2
+  },
+  {
+    "compID":70,
+    "name":"500gb SSD",
+    "type":"HDD",
+    "price":179.98,
+    "budget":2,
+    "wattage":3
+  },
+  {
+    "compID":71,
+    "name":"1TB SDD",
+    "type":"HDD",
+    "price":289.98,
+    "budget":1,
+    "wattage":3
+  },
+  {
+    "compID":72,
+    "name":"Aerocool",
+    "type":"CASE",
+    "price":19.99,
+    "budget":6,
+    "wattage":0
+  },
+  {
+    "compID":73,
+    "name":"BitFenix Neos",
+    "type":"CASE",
+    "price":29.99,
+    "budget":6,
+    "wattage":0
+  },
+  {
+    "compID":74,
+    "name":"Zalman R1",
+    "type":"CASE",
+    "price":33.95,
+    "budget":6,
+    "wattage":0
+  },
+  {
+    "compID":75,
+    "name":"NZXT 210",
+    "type":"CASE",
+    "price":39.95,
+    "budget":5,
+    "wattage":0
+  },
+  {
+    "compID":76,
+    "name":"BitFenix Shinob",
+    "type":"CASE",
+    "price":47.99,
+    "budget":5,
+    "wattage":0
+  },
+  {
+    "compID":49,
+    "name":"2 x 1gb",
+    "type":"RAM",
+    "price":8.5,
+    "budget":6,
+    "wattage":2
+  },
+  {
+    "compID":47,
+    "name":"2 x 2gb",
+    "type":"RAM",
+    "price":16.51,
+    "budget":5,
+    "wattage":2
+  },
+  {
+    "compID":78,
+    "name":"Silverstone",
+    "type":"CASE",
+    "price":54.95,
+    "budget":4,
+    "wattage":0
+  },
+  {
+    "compID":79,
+    "name":"Corsair 230T",
+    "type":"CASE",
+    "price":67.99,
+    "budget":4,
+    "wattage":0
+  },
+  {
+    "compID":80,
+    "name":"Lian",
+    "type":"CASE",
+    "price":79.9,
+    "budget":3,
+    "wattage":0
+  },
+  {
+    "compID":50,
+    "name":"2 x 4gb",
+    "type":"RAM",
+    "price":44.66,
+    "budget":3,
+    "wattage":2
+  },
+  {
+    "compID":81,
+    "name":"NZXT Phantom",
+    "type":"CASE",
+    "price":84.95,
+    "budget":3,
+    "wattage":0
+  },
+  {
+    "compID":82,
+    "name":"Anidees",
+    "type":"CASE",
+    "price":101.99,
+    "budget":3,
+    "wattage":0
+  },
+  {
+    "compID":83,
+    "name":"Corsair Obsidia",
+    "type":"CASE",
+    "price":129.95,
+    "budget":2,
+    "wattage":0
+  },
+  {
+    "compID":51,
+    "name":"1 x 2gb",
+    "type":"RAM",
+    "price":7.95,
+    "budget":6,
+    "wattage":1
+  },
+  {
+    "compID":84,
+    "name":"CM Cosmos",
+    "type":"CASE",
+    "price":134.99,
+    "budget":2,
+    "wattage":0
+  },
+  {
+    "compID":85,
+    "name":"In-Win 904",
+    "type":"CASE",
+    "price":159.95,
+    "budget":2,
+    "wattage":0
+  },
+  {
+    "compID":86,
+    "name":"Phanteks",
+    "type":"CASE",
+    "price":199.99,
+    "budget":1,
+    "wattage":0
+  },
+  {
+    "compID":52,
+    "name":"1 x 8gb",
+    "type":"RAM",
+    "price":53.22,
+    "budget":3,
+    "wattage":1
+  },
+  {
+    "compID":87,
+    "name":"In-Win D",
+    "type":"CASE",
+    "price":329.99,
+    "budget":1,
+    "wattage":0
+  },
+  {
+    "compID":88,
+    "name":"350W",
+    "type":"PSU",
+    "price":31.44,
+    "budget":6,
+    "wattage":350
+  },
+  {
+    "compID":89,
+    "name":"400W",
+    "type":"PSU",
+    "price":35.88,
+    "budget":6,
+    "wattage":400
+  },
+  {
+    "compID":53,
+    "name":"2 x 8gb",
+    "type":"RAM",
+    "price":108.54,
+    "budget":2,
+    "wattage":2
+  },
+  {
+    "compID":90,
+    "name":"450W",
+    "type":"PSU",
+    "price":57.87,
+    "budget":5,
+    "wattage":450
+  },
+  {
+    "compID":54,
+    "name":"1 x 16gb",
+    "type":"RAM",
+    "price":164.98,
+    "budget":2,
+    "wattage":1
+  },
+  {
+    "compID":91,
+    "name":"500W",
+    "type":"PSU",
+    "price":47.94,
+    "budget":5,
+    "wattage":500
+  },
+  {
+    "compID":55,
+    "name":"2 x 16gb",
+    "type":"RAM",
+    "price":251.5,
+    "budget":1,
+    "wattage":2
+  },
+  {
+    "compID":56,
+    "name":"4 x 8gb",
+    "type":"RAM",
+    "price":212.26,
+    "budget":1,
+    "wattage":4
+  },
+  {
+    "compID":92,
+    "name":"600W",
+    "type":"PSU",
+    "price":57.87,
+    "budget":5,
+    "wattage":600
+  },
+  {
+    "compID":93,
+    "name":"750W",
+    "type":"PSU",
+    "price":64.99,
+    "budget":4,
+    "wattage":750
+  },
+  {
+    "compID":48,
+    "name":"1 x 4gb",
+    "type":"RAM",
+    "price":28.81,
+    "budget":5,
+    "wattage":1
+  },
+  {
+    "compID":57,
+    "name":"4 x 4gb",
+    "type":"RAM",
+    "price":84.32,
+    "budget":3,
+    "wattage":4
+  },
+  {
+    "compID":94,
+    "name":"1000W",
+    "type":"PSU",
+    "price":122.98,
+    "budget":3,
+    "wattage":1000
+  },
+  {
+    "compID":95,
+    "name":"1200W",
+    "type":"PSU",
+    "price":256.77,
+    "budget":2,
+    "wattage":1200
+  },
+  {
+    "compID":96,
+    "name":"1500W",
+    "type":"PSU",
+    "price":358.24,
+    "budget":1,
+    "wattage":1500
+  },
+  {
+    "compID":5,
+    "name":"AMD 9590",
+    "type":"CPU",
+    "price":199,
+    "budget":2,
+    "wattage":220
+  },
+  {
+    "compID":58,
+    "name":"120gb 2.5\"",
+    "type":"HDD",
+    "price":12.27,
+    "budget":6,
+    "wattage":1
+  },
+  {
+    "compID":59,
+    "name":"250gb 2.5\"",
+    "type":"HDD",
+    "price":18,
+    "budget":6,
+    "wattage":1
+  },
+  {
+    "compID":60,
+    "name":"500gb 2.5\"",
+    "type":"HDD",
+    "price":48.99,
+    "budget":4,
+    "wattage":3
+  },
+  {
+    "compID":61,
+    "name":"500gb 3.5\"",
+    "type":"HDD",
+    "price":35.96,
+    "budget":5,
+    "wattage":6
+  },
+  {
+    "compID":62,
+    "name":"750gb 3.5\"",
+    "type":"HDD",
+    "price":52.04,
+    "budget":4,
+    "wattage":7
+  },
+  {
+    "compID":63,
+    "name":"1TB 3.5\"",
+    "type":"HDD",
+    "price":41.98,
+    "budget":5,
+    "wattage":7
+  },
+  {
+    "compID":64,
+    "name":"1.5TB 3.5\"",
+    "type":"HDD",
+    "price":56.39,
+    "budget":3,
+    "wattage":8
+  },
+  {
+    "compID":65,
+    "name":"2TB 3.5\"",
+    "type":"HDD",
+    "price":59.99,
+    "budget":3,
+    "wattage":8
+  },
+  {
+    "compID":66,
+    "name":"4TB 3.5\"",
+    "type":"HDD",
+    "price":109.68,
+    "budget":2,
+    "wattage":9
+  },
+  {
+    "compID":7,
+    "name":"AMD 6700",
+    "type":"CPU",
+    "price":101.99,
+    "budget":5,
+    "wattage":65
+  },
+  {
+    "compID":8,
+    "name":"AMD PhenomII",
+    "type":"CPU",
+    "price":68.02,
+    "budget":6,
+    "wattage":95
+  }
+]

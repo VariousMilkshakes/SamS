@@ -1,0 +1,166 @@
+extends layout
+
+block content
+	section#sidebar
+		#top.scrollButton
+			.rotate90
+				| &#10097
+			// Trending Systems go here
+		#systemStack
+			artile#system1.tSystem
+				h4.tSystemName placehold system 1
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system2.tSystem
+				h4.tSystemName placehold system 2
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system3.tSystem
+				h4.tSystemName placehold system 3
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system4.tSystem
+				h4.tSystemName placehold system 4
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system5.tSystem
+				h4.tSystemName placehold system 5
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system6.tSystem
+				h4.tSystemName placehold system 6
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system7.tSystem
+				h4.tSystemName placehold system 7
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system8.tSystem
+				h4.tSystemName placehold system 8
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system9.tSystem
+				h4.tSystemName placehold system 9
+				p.tSystemDesc
+					| This system is really cools.
+				.tSystemFav
+					p &#9825
+			artile#system10.tSystem
+				h4.tSystemName placehold system 10
+				p.tSystemDesc
+					| This system is really cools.
+			.tSystemFav
+				p &#9825
+		#bottom.scrollButton
+			.rotateA90
+				| &#10097
+	#main
+		section#componentStats
+			#statsDesc
+				h2#compName Component Name
+				p
+					ul
+						li
+							h3 Hello
+						li
+							h3 World
+						li
+							h3 !!!!!
+			img(src='')
+		section#componetBox
+			table
+				tr#comp1
+					td.compIcon
+						h3 Mobo
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#1 &#215
+				tr#comp2
+					td.compIcon
+						h3 CPU
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#2 &#215
+				tr#comp3
+					td.compIcon
+						h3 GPU
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#3 &#215
+				tr#comp4
+					td.compIcon
+						h3 RAM
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#4 &#215
+				tr#comp5
+					td.compIcon
+						h3 HDD
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#5 &#215
+				tr#comp6
+					td.compIcon
+						h3 PSU
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#6 &#215
+				tr#comp7
+					td.compIcon
+						h3 Case
+					td.compDesc
+						| Hello
+					td.compModi
+						.triangle
+							.circle
+								span#7 &#215
+	section#infoPane
+		table
+			tr#light
+				td
+					input#systemName(type='text', name='systemName', placeholder='New Name')
+			tr
+				td#watt Wattage:
+				= ' ' + database
+			tr#light
+				td#price Price:
+			tr
+				td#prog Progress: 0/7
+			tr#light
+				td
+					form(action='/data', method='get')
+						input(type='submit' value='Submit >>>')

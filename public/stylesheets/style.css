@@ -1,0 +1,450 @@
+/*Colour Palette*/
+@font-face {
+  font-family: quicksand;
+  font-weight: normal;
+  src: url(../font/Quicksand-Regular.ttf); }
+
+/* line 17, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+body {
+  font-family: quicksand;
+  overflow: hidden; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 22, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+header {
+  background-color: #4eb666;
+  height: 80px; }
+
+/* line 27, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+header > img {
+  height: 80px;
+  margin: 0; }
+
+/* line 32, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#whiteBar {
+  background-color: white;
+  float: left;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  width: 350px; }
+
+/* line 42, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px; }
+
+/* line 48, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 55, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+nav ul > li {
+  display: inline;
+  padding: 10px 30px 0 0;
+  position: relative; }
+
+/* line 61, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+nav li > a {
+  color: white;
+  font-family: quicksand;
+  font-size: 20px;
+  text-decoration: none; }
+
+/* line 68, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+nav li:hover a {
+  border-bottom: 2px solid white; }
+
+/* line 72, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#active {
+  border-top: 2px solid white; }
+
+/* line 77, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#sidebar {
+  background-color: #027353;
+  height: 101%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 280px; }
+
+/* line 87, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#systemStack {
+  position: absolute;
+  width: inherit;
+  top: -150px; }
+
+/* line 93, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.tSystem {
+  background-color: white;
+  display: block;
+  margin: 2.5px 10px; }
+
+/* line 99, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.tSystemName {
+  padding: 3px 0 0 3px; }
+
+/* line 103, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/scrollButton.scss */
+.tSystemDesc {
+  padding: 0 0 0 3px; }
+
+/* line 107, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.tSystemFav {
+  border-bottom: 30px solid #4eb666;
+  border-right: 30px solid transparent;
+  height: 0;
+  width: 0; }
+
+/* line 114, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.tSystemFav p {
+  color: white;
+  cursor: hand;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 0 2px 2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 131, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.scrollButton {
+  width: inherit;
+  position: fixed;
+  left: 0;
+  background-color: rgba(64, 64, 64, 0.8);
+  height: 70px;
+  z-index: 20; }
+
+/* line 140, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.scrollButton:hover {
+  background-color: rgba(64, 64, 64, 0.4); }
+
+/* line 144, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#bottom {
+  position: absolute;
+  bottom: 0; }
+
+/* line 149, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#top {
+  top: 0; }
+
+/* line 153, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.scrollButton i {
+  color: rgba(164, 164, 164, 0.8);
+  display: block;
+  width: 50px;
+  margin: 0 auto; }
+
+/* line 161, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.rotateA90 {
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg); }
+
+/* line 167, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.rotate90 {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg); }
+
+/* line 177, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#main {
+  background-color: white;
+  height: 100%;
+  margin: 0 0 0 280px;
+  min-height: 600px;
+  overflow: hidden;
+  width: 1200px;  }
+
+/* line 186, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#componetBox {
+  background-color: white;
+  border-left: 4px solid black;
+  height: 480px;
+  margin: 0 0 0 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 926px; }
+
+@media only screen and (max-width: 1399px){
+    #main {
+        width: 55%;
+    }
+
+    #componetBox {
+        margin: 0;
+		height: 462px;
+    }
+
+    #componetBox table {
+        width: 79% !important;
+    }
+
+    #infoPane {
+        right: 84px;
+        left: auto !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px){
+	body{
+		display: none;
+	}
+}
+
+/* line 196, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#componetBox table {
+  background-color: white;
+  width: 930px; }
+
+/* line 201, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#componetBox table tr {
+  border-bottom: 1px solid black;
+  height: 90px; }
+
+.suggest {
+    border-right: 1px solid black;
+    height: 80px;
+    margin: 3px 0 3px 0;
+    width: 90px; }
+
+/* line 206, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.compIcon {
+  background-color: white;
+  height: 80px;
+  margin: 5px 0 5px 0;
+  width: 90px; }
+
+  .compIcon h3 {
+    height: 40px;
+    margin: 5px 0 5px 10px;
+    padding: 20px 0 10px 0;
+    border-right: 1px solid black; }
+
+/* line 213, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.compModi {
+  background-color: #4eb666;
+  height: 80px;
+  padding: 0;
+  width: 110px; }
+
+/* line 220, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.compSugg {
+  /*display: inline-block;*/
+  margin: 0 10px 0 0;
+  overflow: hidden; }
+
+.suggest {
+  display: block;
+  padding-left: 5px;
+  float: left;
+  font: 14px;
+  text-decoration: none;
+  color: black;
+  width: 100px;}
+
+.suggTitle {
+  display: block;
+  float: left;
+  margin: 10px -15px 0 15px;
+  width: 140px;
+}
+
+.suggLast {
+  border-right: 0px !important;
+}
+
+/* line 227, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.triangle {
+  border-bottom: 90px solid white;
+  border-right: 91px solid transparent;
+  display: inline;
+  float: left;
+  height: 0;
+  width: 0; }
+
+.submitCircle {
+    background-color: green !important;
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+    display: block !important;
+}
+
+/* line 236, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.circle {
+  color: #4eb666;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  float: right;
+  height: 20px;
+  margin: 10px -80px 0 40px;
+  padding: 0 0 10px 4px;
+  width: 26px; }
+
+.hidden {
+     display: none;
+}
+
+/* line 249, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.circle span {
+  color: inherit;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 30px;}
+
+/* line 256, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+.circle:hover {
+  color: white;
+  background-color: #4eb666; }
+
+/* line 265, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#infoPane {
+  background-color: white;
+  border-left: 2px solid black;
+  display: block;
+  height: 420px;
+  left: 1460px;
+  padding: 30px 0 0 0;
+  position: absolute;
+  top: 430px;
+  width: 210px; }
+
+/* line 277, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#infoPane table {
+  background-color: white;
+  width: 210px; }
+
+/* line 282, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#infoPane table tr {
+  background-color: #027353;
+  color: #4eb666;
+  height: 70px; }
+
+/* line 288, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#infoPane table tr td {
+  font-size: 1.5em;
+  padding: 0 0 0 10px; }
+
+/* line 293, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#light {
+  background-color: #4eb666 !important;
+  color: #027353 !important; }
+
+/* line 298, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#systemName {
+  height: 50px;
+  width: 170px;
+  margin: 10px 5px;
+  background-color: #4eb666;
+  border: 0px; }
+
+/* line 307, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#componentStats {
+  border-bottom: 2px solid black;
+  height: 380px;
+  width: 100%; }
+
+/* line 314, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#componentStats img {
+  float: right;
+  height: 340px;
+  width: 340px;
+  margin: 20px 20px 20px 0;
+  padding: 0 20px 0 0; }
+
+/* line 322, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#statsDesc {
+  float: left;
+  background-color: pink;
+  margin: 20px 0 0 20px; }
+
+/* line 327, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#statsDesc h2 {
+  margin: 0 0 10px 0; }
+
+#uniqueStats {
+  color: black;
+  padding: 0;
+  margin: 35px 0 20px 20px;
+  list-style: none;
+}
+
+#uniqueStats li{
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+#priceSpec {
+  height: 20px;
+  margin-left: 20px;
+}
+
+#wattageSpec {
+  height: 20px;
+}
+
+#statsDesc h4 {
+  color : black;
+}
+/* line 332, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#basket {
+  background-color: cyan;
+  width: 430px;
+  height: 350px; }
+
+/* line 338, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#basketPanel {
+  background-color: orange;
+  height: 300px;
+  width: 430px; }
+
+/* line 346, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#panelControl li {
+  background-color: pink;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  wwidth: 80px;
+  display: block;
+  cursor: hand;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/* line 363, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+#panelControl li:hover {
+  background-color: orange; }
+
+/* line 368, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
+footer {
+  height: 200px;
+  background-color: grey;
+  position: relative; }
+
+/*# sourceMappingURL=style.css.map */
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
