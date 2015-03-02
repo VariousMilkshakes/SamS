@@ -70,17 +70,56 @@ block content
 			i.fa.fa-chevron-up.fa-3x
 	#main
 		section#componentStats
-			#statsDesc
+			#statsDesc(style='display:none')
 				h2#compName Component Preview
 				ul#uniqueStats
 					li Cores:
 					li Clock Frequency:
 					li Cache:
 					li Overclockable: 
-				
-				h3#priceSpec.left Price: 
-				h3#wattageSpec.right Wattage: 
-			img(id='componentImage' src='')
+				#bottomRow
+					h3#priceSpec.left Price: $XXXX.xx
+					input.right#addComponent(type='button' value='Add')
+					h3#wattageSpec.right Wattage: XXXXW
+			img(id='componentImage' src='http://html5-demos.appspot.com/static/webcomponents/images/logos/webcomponents.png')
+			#questionaire
+				h2 What are you looking for?
+				form(action='/require' method='GET')
+					ul
+						li
+							h3 What will you use it for?
+						li
+							input(type='radio' id='gRadio' name='use' value='g')
+							label(for='gRadio') Gaming
+							input(type='radio' id='bRadio' name='use' value='b')
+							label(for='bRadio') Basic Workstation
+							input(type='radio' id='pRadio' name='use' value='p')
+							label(for='pRadio') Powerful Workstation
+						li
+							h3 How much do you want to spend? (1: No Limit 5: Tight Budget)
+						li
+							input(type='radio' id='1Radio' name='budget' value='1')
+							label(for='1Radio') 1
+							input(type='radio' id='2Radio' name='budget' value='1')
+							label(for='2Radio') 2
+							input(type='radio' id='3Radio' name='budget' value='1')
+							label(for='3Radio') 3
+							input(type='radio' id='4Radio' name='budget' value='1')
+							label(for='4Radio') 4
+							input(type='radio' id='5Radio' name='budget' value='1')
+							label(for='5Radio') 5
+						li
+							h3 Will you want to upgrade the system at a later date?
+						li
+							input(type='checkbox' name='upgrade' id='uCheck')
+							label(for='uCheck')
+						li
+							h3 How much storage space will you need?
+						li
+							input(type='range' id='sSlider' value='1000' min='60' max='4000' step='10' onchange='printValue("sSlider", "sliVal")')
+							input(type='text' id='sliVal' size='2')
+							label(for='sliVal') GB
+							input.right(type='submit' value='Submit' style='margin-right:40px;')
 		section#componetBox
 			table
 				tr#comp1

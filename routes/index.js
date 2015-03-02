@@ -6,7 +6,7 @@ var db = connection(process.env.ORCHESTRATE_API_KEY);
 var compGrab = connection(process.env.ORCHESTRATE_API_KEY);
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res, next){
 	res.render('index', { title: 'SamS', componentTitle: "Component Name", data: null });
 	
 	db.ping()
@@ -19,14 +19,34 @@ router.get('/', function(req, res, next) {
 	});
 });
 
-router.get('/require', function(req, res) {
-	var budgetCat = req.query['bugCat'];
+router.get('/require', function(req, res){
+	var budgetCat = req.query['budget'];
 	var query = 'value.budget: ' + budgetCat + ' AND ';
 	console.log("Budget: " + budgetCat);
 
 	initalComponentCall(query, res);
 });
 
+function suggestionQuery (req){
+	var budgetCat = req.query['budget'];
+	var usage = req.query['use'];
+	var upgrade = req.query['upgrade'];
+
+	switch(usage){
+		case 'b':
+			
+			break;
+		default:
+			statements_def
+			break;
+	}
+}
+
+function createQuery (){
+	while (i = 0; i < 7; i++) {
+		if ()
+	}
+}
 
 function initalComponentCall (query, res){
 	var componentTransfer_Obj = {0:[],1:[],2:[],3:[],4:[],5:[],6:[]};

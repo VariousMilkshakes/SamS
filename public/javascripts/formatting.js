@@ -533,8 +533,9 @@ function infoPane(prc, prog, watt){
 
 function toggleImage (){
     var compImg = $("#componentImage");
+    var window = $(document);
 
-    if (compImg.attr('src') == ''){
+    if (compImg.attr('src') == '' || window.width() <= 1400){
         compImg.css("display", "none");
     } else {
         compImg.css("display", "initial");

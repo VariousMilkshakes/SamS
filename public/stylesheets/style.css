@@ -185,7 +185,7 @@ nav li:hover a {
 
     #componetBox {
         margin: 0;
-		height: 462px;
+        height: 462px;
     }
 
     #componetBox table {
@@ -199,7 +199,7 @@ nav li:hover a {
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px){
-	body{
+  body{
 		display: none;
 	}
 }
@@ -361,16 +361,17 @@ nav li:hover a {
 /* line 314, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
 #componentStats img {
   float: right;
-  height: 340px;
-  width: 340px;
+  max-height: 300px;
   margin: 20px 20px 20px 0;
   padding: 0 20px 0 0; }
 
 /* line 322, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
 #statsDesc {
   float: left;
-  background-color: pink;
-  margin: 20px 0 0 20px; }
+  height: 340px;
+  position: relative;
+  margin: 20px 0 0 20px;
+  min-width: 750px; }
 
 /* line 327, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
 #statsDesc h2 {
@@ -395,11 +396,22 @@ nav li:hover a {
 
 #wattageSpec {
   height: 20px;
+  margin-left: 100px;
 }
 
-#statsDesc h4 {
+#statsDesc h3 {
   color : black;
 }
+
+#bottomRow {
+  position: absolute;
+  bottom: 0;
+}
+
+#addComponent {
+  margin: 18px 20px 18px 100px;
+}
+
 /* line 332, D:/HadeSoft/SamS/workshop/build 1.0.1/sass/style.scss */
 #basket {
   background-color: cyan;
